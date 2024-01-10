@@ -14,7 +14,12 @@ public class DemoController {
 
     @GetMapping("/displayMsg")
     public String displayMessage() {
-        return "Welcome";
+        return "Welcome ";
+    }
+
+    @GetMapping("/displayMsg2")
+    public String displayMessage2() {
+        return "Welcome to Our Team";
     }
 
 }
