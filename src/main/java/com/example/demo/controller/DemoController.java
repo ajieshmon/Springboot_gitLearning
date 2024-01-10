@@ -14,13 +14,7 @@ public class DemoController {
 
     @GetMapping("/displayMsg")
     public String displayMessage() {
-        System.out.println("Test Message");
-        return "Welcome ";
-    }
-
-    @GetMapping("/displayMsg2")
-    public String displayMessage2() {
-        return "Welcome to Our Team";
+        return "Welcome to All";
     }
 
 }
