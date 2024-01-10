@@ -7,7 +7,14 @@ import org.springframework.web.bind.annotation.RestController;
 public class DemoController {
 
     @GetMapping("/shoeMsg")
-    public String showMessage(){
+    public String showMessage() {
         return "Hai Hello";
     }
+
+
+    @GetMapping("/displayMsg")
+    public String displayMessage() {
+        return "Welcome";
+    }
+
 }
